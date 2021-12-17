@@ -1,0 +1,124 @@
+/* PC */
+@media (min-width: 1024px){
+    #header .mobile-menu{
+        display: none;
+    }
+
+}
+
+
+
+
+/* Tablet & mobile */
+@media (max-width: 1023px){
+    .btn{
+        padding: 15px 16px;
+        
+    }
+
+    .contact-form .form-control{
+        padding: 16px;
+    }
+
+    #footer .icon-footer a{
+        padding: 0 8px;
+    }
+}
+
+/* Tablet  */
+@media (min-width: 740px) and (max-width: 1023px){
+
+    #header .mobile-menu{
+        display: none;
+    }
+}
+
+/* Mobile  */
+@media (max-width: 739px){
+    .mt-8{
+        margin-top: 8px;
+    }
+    
+    #nav{
+    display: block;
+}
+    #nav .subnav{
+        position: initial;
+        background-color: #ccc;
+        color: #000;
+        padding-left: 16px;
+    }
+    
+
+
+    #nav li{
+        display: block;
+    }
+    
+    #nav li:first-child{
+        display: inline-block;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    
+#header .mobile-menu{
+    float: right;
+    padding: 0 16px;
+    color:rgb(255, 255, 255);
+     font-size: 20px;
+     line-height: 46px;
+     position: absolute;
+     top: 0;
+     right: 0;
+  
+}
+
+
+#header .mobile-menu:hover{ 
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000;
+}
+
+
+#content .member-item{
+    width: 100%;
+}
+
+#content .member-avt{
+    width: 60%;
+}
+
+.place-item{
+    width: 100%;
+    margin-top: 16px;
+}
+
+.col-full-mobile{
+    width: 100%;
+}
+.contact-info{
+    margin-bottom: 16px;
+}
+
+.contact-form .form-submit{
+    width: 100%;
+}
+.buy-tickets{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+}
